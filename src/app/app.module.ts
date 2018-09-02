@@ -9,13 +9,25 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { LoginPage } from '../pages/login/login';
+import { EnfantsPage } from '../pages/enfants/enfants';
+import { ProfilePage } from '../pages/profile/profile';
+import { NotesPage } from '../pages/notes/notes';
+import { AssiduitePage } from '../pages/assiduite/assiduite';
+import { AbsencesPage } from '../pages/absences/absences';
+import { RetardsPage } from '../pages/retards/retards';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ListPage,
-    LoginPage
+    LoginPage,
+    EnfantsPage,
+    ProfilePage,
+    NotesPage,
+    AssiduitePage,
+    AbsencesPage,
+    RetardsPage
   ],
   imports: [
     BrowserModule,
@@ -26,7 +38,13 @@ import { LoginPage } from '../pages/login/login';
     MyApp,
     HomePage,
     ListPage,
-    LoginPage
+    LoginPage,
+    EnfantsPage,
+    ProfilePage,
+    NotesPage,
+    AssiduitePage,
+    AbsencesPage,
+    RetardsPage
   ],
   providers: [
     StatusBar,
