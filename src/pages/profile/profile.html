@@ -7,12 +7,59 @@
 <ion-header>
 
   <ion-navbar color="primary">
-    <ion-title>Profile</ion-title>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Profile
+    </ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+
+  <ion-card>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="../../assets/imgs/profile.jpg">
+      </ion-avatar>
+      <h1> Nom & Prénom</h1>
+    </ion-item>
+
+    <ion-card-content>
+
+
+      <ion-list>
+
+        <ion-item>
+          <ion-label color="primary">Fonction</ion-label>
+          <ion-input value="La fonction du père" disabled></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label color="primary">Téléphone</ion-label>
+          <ion-input value="0666 51 45 87" type="tel" disabled></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label color="primary">Fix</ion-label>
+          <ion-input value="0524 xx xx xx" disabled></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label color="primary">Adresse</ion-label>
+          <ion-input value="Adresse" disabled></ion-input>
+        </ion-item>
+
+          <button ion-button icon-start color="secondary" round block>
+              <ion-icon name="md-checkmark-circle"></ion-icon>
+            Modifier vos données
+          </button>
+      </ion-list>
+
+    </ion-card-content>
+  </ion-card>
 
 </ion-content>
