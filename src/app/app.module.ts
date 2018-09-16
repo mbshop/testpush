@@ -15,6 +15,7 @@ import { NotesPage } from '../pages/notes/notes';
 import { AssiduitePage } from '../pages/assiduite/assiduite';
 import { AbsencesPage } from '../pages/absences/absences';
 import { RetardsPage } from '../pages/retards/retards';
+//import { TestNotPage } from '../pages/test-not/test-not';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { RetardsPage } from '../pages/retards/retards';
     NotesPage,
     AssiduitePage,
     AbsencesPage,
-    RetardsPage
+    RetardsPage,
+    //TestNotPage
   ],
   imports: [
     BrowserModule,
@@ -44,7 +46,8 @@ import { RetardsPage } from '../pages/retards/retards';
     NotesPage,
     AssiduitePage,
     AbsencesPage,
-    RetardsPage
+    RetardsPage,
+    //TestNotPage
   ],
   providers: [
     StatusBar,
