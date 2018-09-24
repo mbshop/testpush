@@ -8,6 +8,8 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import{LocalNotifications} from '@ionic-native/local-notifications'
+
 import { LoginPage } from '../pages/login/login';
 import { EnfantsPage } from '../pages/enfants/enfants';
 import { ProfilePage } from '../pages/profile/profile';
@@ -52,6 +54,7 @@ import { RetardsPage } from '../pages/retards/retards';
   providers: [
     StatusBar,
     SplashScreen,
+    LocalNotifications,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
